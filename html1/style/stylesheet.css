@@ -1,0 +1,49 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+h1{
+    font-size:60px;
+    text-align: justify;
+}
+
+    button:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+.overskrift {
+    font-size: 27px;
+    text-align: center;
+    margin: 10px 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.tekst {
+margin: 5px 0px;
+}
+
+
+.container {
+margin: 0px 15px;
+text-align: center;
+}
+
+.fratil {
+margin: 10px 0px;
+}
+
+.dato {
+margin: 10px 0px;
+}
+
+.tid {
+margin: 10px 0px;
+}
+
+.btn {
+width: 100%;
+padding: 5px 25px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Carpool</title>
+
+    <link rel="stylesheet" href="style/stylesheet.css">
+</head>
+<body>
+
+<img class="image" src="Images/Image2.png" width="550" height="200" />
+
+
+<div class="container">
+    <p class="tekst"> Er du på udkig efter et lift, eller vil du gerne tilbyde transport? </p>
+
+    <div>
+        <label>
+            <input type="radio" name="terms" value="Passager"> Passager
+        </label>
+        <label>
+            <input type="radio" name="terms" value="Chauffør"> Chauffør
+        </label>
+    </div>
+
+    <div class="fratil">
+        <select name="carpool_fra" id="carpool_fra">
+            <option value="Fra">Fra</option>
+                <option value="Allinge">Allinge</option>
+                <option value="Tejn">Tejn</option>
+                <option value="Gudhjem">Gudhjem</option>
+                <option value="Svanneke">Svanneke</option>
+                <option value="Nexø">Nexø</option>
+                <option value="Rønne">Rønne</option>
+        </select>
+
+        <select name="fly_til" id="fly_til">
+            <option value="Til">Til</option>
+            <option value="Allinge">Allinge</option>
+            <option value="Tejn">Tejn</option>
+            <option value="Gudhjem">Gudhjem</option>
+            <option value="Svanneke">Svanneke</option>
+            <option value="Nexø">Nexø</option>
+            <option value="Rønne">Rønne</option>
+        </select>
+    </div>
+
+    <div class="dato">
+        <label for="dato">Vælg dato:</label>
+        <input type="date" id="dato" name="dato">
+    </div>
+
+    <div class="tid">
+    <label for="meeting-time">Vælg en tid:</label>
+    <input type="time" id="meeting-time" name="meeting-time">
+    </div>
+
+
+
+    <form action="Modtager/modtager.html">
+        <button class="btn" type="submit">Søg</button>
+    </form>
+
+</div>
+
+</body>
+</html>
